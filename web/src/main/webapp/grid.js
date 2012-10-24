@@ -48,7 +48,7 @@ var iNettuts = {
                 $('<a href="#" class="remove">CLOSE</a>').mousedown(function (e) {
                     e.stopPropagation();    
                 }).click(function () {
-                    if(confirm('101212-3 This widget will be removed, ok?')) {
+                    if(confirm('102412-1 This widget will be removed, ok?')) {
                         $(this).parents(settings.widgetSelector).animate({
                             opacity: 0    
                         },function () {
